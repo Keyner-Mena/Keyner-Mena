@@ -1,10 +1,4 @@
-<div align="center">
-  <img height="150" src="./img.png"  />
-</div>
-
-###
-
-# Hello World! I'm Keyner Mena <img src="https://raw.githubusercontent.com/nakulbhati/nakulbhati/master/contain/Hi.gif" width="20px">
+# Hi! I'm Keyner Mena <img src="https://raw.githubusercontent.com/nakulbhati/nakulbhati/master/contain/Hi.gif" width="20px">
 
 Welcome to my GitHub profile! I'm a passionate developer with a love for coding, learning new technologies, and contributing to open source projects. Here's a little about me:
 
@@ -84,7 +78,19 @@ I'm a computer engineering from Cartago, Costa Rica. I am a person who likes to 
 
 ###
 
-<img src="https://raw.githubusercontent.com/Keyner-Mena/Keyner-Mena/output/snake.svg" alt="Snake animation" />
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg"
+  />
+  <img
+    alt="github contribution grid snake animation"
+    src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg"
+  />
+</picture>
 
 ###
-
