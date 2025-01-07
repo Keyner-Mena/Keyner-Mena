@@ -6,13 +6,13 @@
 
 # Hi! I'm Keyner Mena <img src="https://raw.githubusercontent.com/nakulbhati/nakulbhati/master/contain/Hi.gif" width="20px">
 
-Welcome to my GitHub profile! I'm a passionate developer with a love for coding, learning new technologies, and contributing to open source projects. Here is some information about me:
+Welcome to my GitHub profile! I'm a passionate developer with a love for coding, learning new technologies, and contributing to new projects. Here is some information about me:
 
 I'm a computer engineering from Cartago, Costa Rica. I am a person who likes to study and always learn new skills. I also value collaboration and innovation, and I am always looking for ways to improve and learn from others. <br>
 
-- 🔭 I’m working on personal projects.<br>
-- 📚 I'm currently learning Python (a little bit more)<br>
-- ⚡ In my free time, I like to dedicate it to myself.
+- 🔭 Working on: personal projects.<br>
+- 📚 Currently learning: Python (a little bit more)<br>
+- ⚡ In my free time: I like to dedicate it to myself.
 
 ## 🛠️ Languages and tools
 
@@ -61,11 +61,12 @@ I'm a computer engineering from Cartago, Costa Rica. I am a person who likes to 
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="40" alt="figma logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" height="40" alt="postman logo
-  <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo"  />
   <img width="12" />
   <img src="https://skillicons.dev/icons?i=github" height="40" alt="github logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" height="40" alt="postman logo
+  <img width="12" />
 </div>
 <br>
 
@@ -77,8 +78,8 @@ I'm a computer engineering from Cartago, Costa Rica. I am a person who likes to 
   <a href="my profile" target="_blank">
     <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
   </a>
-  <a href="keynermena896@gmail.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="gmail logo"  />
+  <a href="mailto:keynermena896@gmail.com" target="_blank"> 
+    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="gmail logo" /> 
   </a>
 </div>
 
@@ -87,15 +88,15 @@ I'm a computer engineering from Cartago, Costa Rica. I am a person who likes to 
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/Keyner-Mena/snk/output/github-contribution-grid-snake-dark.svg"
+    srcset="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg"
   />
   <source
     media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/Keyner-Mena/snk/output/github-contribution-grid-snake.svg"
+    srcset="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg"
   />
   <img
     alt="github contribution grid snake animation"
-    src="https://raw.githubusercontent.com/Keyner-Mena/snk/output/github-contribution-grid-snake.svg"
+    src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg"
   />
 </picture>
 
