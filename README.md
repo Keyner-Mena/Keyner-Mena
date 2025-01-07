@@ -6,12 +6,12 @@
 
 # Hi! I'm Keyner Mena <img src="https://raw.githubusercontent.com/nakulbhati/nakulbhati/master/contain/Hi.gif" width="20px">
 
-Welcome to my GitHub profile! I'm a passionate developer with a love for coding, learning new technologies, and contributing to open source projects. Here's a little about me:
+Welcome to my GitHub profile! I'm a passionate developer with a love for coding, learning new technologies, and contributing to open source projects. Here is some information about me:
 
 I'm a computer engineering from Cartago, Costa Rica. I am a person who likes to study and always learn new skills. I also value collaboration and innovation, and I am always looking for ways to improve and learn from others. <br>
 
 - 🔭 I’m working on personal projects.<br>
-- 📚 I'm currently learning python (a little bit more)<br>
+- 📚 I'm currently learning Python (a little bit more)<br>
 - ⚡ In my free time, I like to dedicate it to myself.
 
 ## 🛠️ Languages and tools
