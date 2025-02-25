@@ -6,9 +6,9 @@
 
 # Hi! I'm Keyner Mena <img src="https://raw.githubusercontent.com/nakulbhati/nakulbhati/master/contain/Hi.gif" width="20px">
 
-Welcome to my GitHub profile! I'm a passionate developer with a love for coding, learning new technologies, and contributing to new projects. Here is some information about me:
+Welcome to my GitHub profile! I'm a passionate developer with a love for coding, learning new technologies, and contributing to new projects. Here's a little bit about me:
 
-I'm a computer engineering from Cartago, Costa Rica. I am a person who likes to study and always learn new skills. I also value collaboration and innovation, and I am always looking for ways to improve and learn from others. <br>
+I'm a computer engineering from Cartago, Costa Rica, who likes to study and always learn new skills. I value collaboration and innovation, and I am always looking for ways to improve and learn from others. <br>
 
 - 🔭 Working on: personal projects.<br>
 - 📚 Currently learning: Python (a little bit more)<br>
@@ -77,9 +77,9 @@ I'm a computer engineering from Cartago, Costa Rica. I am a person who likes to 
 ###
 
 <div align="left">
-  <a href="my profile" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
-  </a>
+  <a href="https://www.linkedin.com/in/keyner-mena" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo" />
+</a>
   <a href="mailto:keynermena896@gmail.com" target="_blank"> 
     <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=&color=D14836&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="gmail logo" /> 
   </a>
