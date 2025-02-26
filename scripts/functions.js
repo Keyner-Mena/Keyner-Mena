@@ -7,17 +7,14 @@ window.onload = function () {
 const carouselContent = document.getElementById("carousel-content");
 
 function adjustCarousel() {
-  const isSmallScreen = window.innerWidth < 992;
-  const isMediumScreen = window.innerWidth < 1400;
+  const isSmallScreen = window.innerWidth < 1201;
   carouselContent.innerHTML = "";
 
   let carouselItems = 0;
   if (isSmallScreen) {
     carouselItems = 1;
-  } else if (isMediumScreen) {
-    carouselItems = 2;
   } else {
-    carouselItems = 3;
+    carouselItems = 2;
   }
 
   generateCarousel(carouselItems);
@@ -72,7 +69,7 @@ const cardsData = [
     header: "CRUD in JS",
     technologies:
       "<li><b> HTML </b></li> <li><b> CSS </b></li> <li><b> JS </b></li> <li><b> PHP </b></li> <li><b> AJAX </b></li> <li><b> Bootstrap </b></li> <li><b> API </b></li> <li><b> PHPMyAdmin </b></li>",
-    img: "./images/crud-js-interface.png",
+    img: "./images/interface-crud-js.png",
     text: "Consists in a structured project in which I create an API using PHP to connect the DB of PHPMyAdmin with the Frontend by using the different endpoints.",
     link: "https://github.com/Keyner-Mena/CRUD-JS-PHP.git",
   },
@@ -80,7 +77,7 @@ const cardsData = [
     header: "E-Commerce",
     technologies:
       "<li><b> HTML </b></li> <li><b> CSS </b></li> <li><b> JS </b></li> <li><b> Bootstrap </b></li>",
-    img: "./images/e-commerce-interface.png",
+    img: "./images/interface-e-commerce.png",
     text: "This website is an e-commerce with a cafeteria theme, which includes sections/modules as: Welcome(Home), Menu, Shopping Cart, Billing and a comments/contact section.",
     link: "https://github.com/Keyner-Mena/Proyecto-Cafeteria.git",
   },
@@ -88,22 +85,22 @@ const cardsData = [
     header: "Web with AJAX",
     technologies:
       "<li><b> HTML </b></li> <li><b> CSS </b></li> <li><b> JS </b></li> <li><b> AJAX </b></li> <li><b> JSON </b></li> <li><b> JSON Server </b></li> <li><b> Bootstrap </b></li>",
-    img: "./images/ajax-web-interface.png",
-    text: "This is an implementation of AJAX for a HTML form that handles the data that is sent to a JSON which works as a DB. Include different validation rules.",
+    img: "./images/interface-ajax.png",
+    text: "This Web site is an implementation of AJAX for a HTML form that handles the data that is sent to a JSON which works as a DB. Include different validation rules.",
     link: "https://github.com/Keyner-Mena/Web-AJAX.git",
   },
   {
     header: "Tasks App",
     technologies:
       "<li><b> HTML </b></li> <li><b> Bootstrap </b></li> <li><b> JS </b></li> <li><b> JQuery </b></li> <li><b> PHP </b></li> <li><b> PHPMyAdmin </b></li>",
-    img: "./images/tasks-app-interface.png",
+    img: "./images/interface-tasks-app.png",
     text: "This web site consists in the administration of personal tasks. I did it to increase my skills in the technologies I use. (It includes CRUD operations).",
     link: "https://github.com/Keyner-Mena/Tasks-App.git",
   },
   {
     header: "Memory Game",
     technologies: "<li> <b> Visual Basic </b> </li>",
-    img: "./images/memory-game-interface.png",
+    img: "./images/interface-memory.png",
     text: "Consists in a game in the Visual Studio 2022, making use of Visual Basic in Windows Form (.NET Framework) applications and the tools for the development of desktop applications.",
     link: "https://github.com/Keyner-Mena/Memory-game-VB.git",
   },
@@ -111,7 +108,7 @@ const cardsData = [
     header: "Pokedex",
     technologies:
       "<li> <b> Python </b> </li> <li> <b> Flet (from Flutter) </b> </li> <li> <b> API </b> </li>",
-    img: "./images/pokedex-interface.png",
+    img: "./images/interface-pokedex.png",
     text: "I made this application to learn how Flet works, and also integrate it in a asynchronous way to be able to make requests to an API like the <a href='https://pokeapi.co/'>PokeAPI</a> and display the info on screen as a pokedex.",
     link: "https://github.com/Keyner-Mena/Pokedex-Python.git",
   },
@@ -119,15 +116,15 @@ const cardsData = [
     header: "CRUD (ANGULAR)",
     technologies:
       "<li><b> ANGULAR </b></li> <li><b> Bootstrap </b></li> <li><b> PHP </b></li> <li><b> PHPMyAdmin </b></li>",
-    img: "./images/angular-interface.png",
+    img: "./images/interface-crud-angular.png",
     text: "I built a CRUD integrated with PHP to manage the API that connects to a SQL DB. And then I integrate it with the Frontend by using ANGULAR. It also uses Bootstrap as other framework to the app.",
     link: "https://github.com/Keyner-Mena/CRUD-ANGULAR.git",
   },
   {
     header: "Project in Figma",
     technologies: "<li><b> Figma </b></li>",
-    img: "./images/figma-interface.png",
-    text: "Interface for a multifunctional tourism system that allows users to easily search and find information about points of interest and services in the country they are visiting.",
+    img: "./images/interface-figma-app.png",
+    text: "This interface is for a multifunctional tourism system that allows users to easily search and find information about points of interest and services in the country they are visiting.",
     link: "https://www.figma.com/file/YhBYQLV2blY8IKKqR68eOC/Untitled?type=design&node-id=0%3A1&mode=design&t=aVYGbIL2rBtHXK19-1",
   },
 ];
@@ -148,7 +145,7 @@ function generateCarousel(numOfItems) {
                   <h3 class="card-header">${card.header}</h3>
                   <img src="${
                     card.img
-                  }" alt="Project image" width="auto" height="180" class="project-image d-block user-select-none">
+                  }" alt="Project image"  class="project-image d-block user-select-none">
                   <div class="card-body">
                     <h5 class="card-title">Made with:</h5>
                     <ul class="tech-items">${card.technologies}</ul>
@@ -157,7 +154,7 @@ function generateCarousel(numOfItems) {
                     <p class="card-text">${card.text}</p>
                   </div>
                   <div class="card-body">
-                    <a type="button" class="btn btn-light" href="${
+                    <a type="button" class="neon-button" href="${
                       card.link
                     }" target="_blank" rel="noopener"> 
                       <img

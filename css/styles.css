@@ -52,7 +52,7 @@ main {
   font-family: "Kadwa", courier;
   position: relative;
   text-align: center;
-  padding: 18rem 0;
+  padding: 21rem 0;
   box-shadow: none;
   animation: fade-in-hero 3s ease-in-out;
 }
@@ -250,6 +250,11 @@ section {
 #btn-resume {
   display: none;
 }
+
+#btn-resume .logo {
+  margin-left: 10px;
+}
+
 .info {
   align-items: center;
   text-align: center;
@@ -361,22 +366,23 @@ section {
 }
 
 #carouselExample {
-  margin-top: 44px;
+  margin-top: 55px;
   margin-bottom: 40px;
-
-  right: 9%;
-  width: 115%;
+  width: 110%;
+  right: 5%;
 }
 
 /* Project cards animation */
 .card {
-  margin: -3px !important;
+  background-color: rgb(5, 5, 5) !important;
+  border-radius: 5px !important  ;
+  margin: -1px !important;
 }
 
 .background-card {
-  width: 27rem !important;
+  width: 40rem !important;
   height: auto;
-  margin: 15px;
+  margin: 19px;
   padding: 6px;
   background: linear-gradient(-45deg, #8e8c8c 0%, #101010 100%);
   position: relative;
@@ -384,7 +390,7 @@ section {
   place-content: center;
   place-items: center;
   overflow: hidden;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 .background-card::before {
@@ -415,8 +421,8 @@ section {
 .card-header {
   font-family: "Kadwa", courier;
   background-color: rgb(5, 5, 5) !important;
-  padding-top: 16px !important;
-  font-size: 2.2rem;
+  padding: 14px !important;
+  font-size: 2.3rem;
 }
 
 .card-title {
@@ -424,16 +430,20 @@ section {
 }
 
 .project-image {
+  width: auto !important;
+  height: 250px !important;
   border: 4px solid rgb(5, 5, 5);
+  border-radius: 10px;
   transition: all 0.7s;
+  object-fit: fill;
 }
 
 .project-image:hover {
   border: none;
   border-radius: 37px;
-  transform: scale(1.2);
+  transform: scale(1.1);
   box-shadow: 0 30px 20px rgba(0, 0, 0, 0.5);
-  filter: brightness(1.1);
+  filter: brightness(1.06);
 }
 
 .tech-items {
@@ -448,7 +458,7 @@ section {
   padding: 5px;
   color: rgb(16, 16, 16);
   font-family: "Kadwa", courier;
-  margin-left: -8px !important;
+  margin-left: -7px !important;
   margin-bottom: 5px !important;
   font-size: 1rem;
   width: auto !important;
@@ -465,11 +475,10 @@ section {
   margin-bottom: -9px;
 }
 
-.btn-light {
+.card .neon-button {
   font-family: "Kadwa", courier !important;
-  margin-top: 11px;
-  font-size: 1.2rem !important;
-  margin-bottom: 8px;
+  font-size: 1.1rem !important;
+  margin-top: 25px;
 }
 
 /* Tooltip */
@@ -517,7 +526,7 @@ section {
 /* Skills section */
 .skills-content {
   padding: 10px;
-  background-color: rgb(8, 8, 8);
+  background-color: rgb(4, 4, 4);
   border-radius: 6px;
   border: 1px solid rgb(63, 63, 63);
   box-shadow: 1px 2px 10px rgba(107, 107, 107, 0.22);
@@ -532,7 +541,7 @@ section {
 }
 
 .list-group-item {
-  background-color: #121212 !important;
+  background-color: #0e0e0e !important;
 }
 
 #contact,
@@ -673,12 +682,12 @@ body::-ms-scrollbar-thumb {
 @media (max-width: 1400px) {
   .item-hints,
   .item-hints .hint {
-    margin: 0rem;
+    margin-left: 8rem;
   }
 
   .item-hints .hint-content {
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: -10px;
     margin-left: 15px;
     font-size: 1.2rem;
     text-align: left;
@@ -686,8 +695,27 @@ body::-ms-scrollbar-thumb {
 
   .item-hints .hint-dot {
     width: 2em;
-    height: 1.7em;
-    transform: translate(-0%, -15%) scale(0.95);
+    height: 1.5em;
+    transform: translate(-0%, -6%) scale(0.95);
+  }
+
+  .background-card {
+    width: 33rem !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  #carouselExample {
+    width: 106%;
+    right: 3%;
+  }
+  .background-card {
+    width: 40rem !important;
+  }
+
+  .item-hints,
+  .item-hints .hint {
+    margin-left: 5.5rem;
   }
 }
 
@@ -697,18 +725,18 @@ body::-ms-scrollbar-thumb {
   }
 
   #hero {
-    padding: 23rem 0;
+    padding: 25rem 0;
   }
 
   #typed-text,
   .typed-cursor {
     display: contents;
-    font-size: 1.7em;
+    font-size: 1.6em;
     word-wrap: break-word;
   }
 
   #hero p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 
   .terminal-loader {
@@ -731,8 +759,35 @@ body::-ms-scrollbar-thumb {
     justify-content: center;
   }
 
-  #btn-resume .logo {
-    margin-left: 8px;
+  #carouselExample {
+    width: 110%;
+    right: 5%;
+  }
+
+  .item-hints,
+  .item-hints .hint {
+    margin-left: 1.7rem;
+  }
+}
+
+@media (max-width: 768px) {
+  #carouselExample {
+    width: 116%;
+    right: 8%;
+  }
+
+  .background-card {
+    width: 32rem !important;
+  }
+  .item-hints,
+  .item-hints .hint {
+    margin-left: 0;
+  }
+
+  .item-hints .hint-dot {
+    width: 2em;
+    height: 1.5em;
+    transform: translate(-0%, -15%) scale(0.95);
   }
 }
 
@@ -742,20 +797,57 @@ body::-ms-scrollbar-thumb {
   }
 }
 
+@media (max-width: 550px) {
+  .background-card {
+    width: 30rem !important;
+  }
+}
+
+@media (max-width: 500px) {
+  .background-card {
+    width: 29rem !important;
+  }
+}
+
 @media (max-width: 480px) {
+  .background-card {
+    width: 25rem !important;
+  }
+}
+
+@media (max-width: 445px) {
+  .background-card {
+    width: 23rem !important;
+  }
+}
+
+@media (max-width: 400px) {
   .background-card {
     width: 21rem !important;
   }
 }
 
-@media (max-width: 342px) {
+@media (max-width: 379px) {
+  #carouselExample {
+    width: 130%;
+    right: 15%;
+  }
+
   .background-card {
-    width: 18rem !important;
+    width: 19rem !important;
+  }
+
+  .background-card .neon-button {
+    font-size: 1rem !important;
+  }
+
+  #contact p {
+    margin-top: 1px;
   }
 
   #contact .neon-button {
     display: flex;
-    font-size: 14px;
+    font-size: 1.2rem !important;
     text-align: center;
     justify-content: center;
     margin-bottom: 0px;
@@ -767,8 +859,14 @@ body::-ms-scrollbar-thumb {
     margin-right: 15px;
     transform: translate(-0%, 3%) scale(0.95);
   }
+}
 
-  #contact p {
-    margin-top: 1px;
+@media (max-width: 330px) {
+  .background-card {
+    width: 17rem !important;
+  }
+
+  .background-card .neon-button {
+    font-size: 0.8rem !important;
   }
 }
