@@ -11,7 +11,7 @@ Welcome to my GitHub profile! I'm a passionate developer with a love for coding,
 I'm a computer engineering from Cartago, Costa Rica, who likes to study and always learn new skills. I value collaboration and innovation, and I am always looking for ways to improve and learn from others. <br>
 
 - 🔭 Working on: personal projects.<br>
-- 📚 Currently learning: Python (a little bit more)<br>
+- 📚 Currently learning: React <br>
 - ⚡ In my free time: I like to dedicate it to myself.
 
 ## 🛠️ Languages and tools
@@ -28,6 +28,10 @@ I'm a computer engineering from Cartago, Costa Rica, who likes to study and alwa
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" height="40" alt="angular logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" height="40" alt="vue logo"  />
+    <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/quasar/quasar-original.svg" height="40" alt="quasar logo"  />
 </div>
 
 ### Backend
@@ -50,6 +54,9 @@ I'm a computer engineering from Cartago, Costa Rica, who likes to study and alwa
   <img src="https://cdn.simpleicons.org/mysql/4479A1" height="40" alt="mysql logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain.svg" height="40" alt="microsoftsqlserver logo"  />
+   <img width="12" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-plain.svg" height="40" alt=".NET logo" />
+  
 </div>
 
 ### Tools
@@ -68,6 +75,9 @@ I'm a computer engineering from Cartago, Costa Rica, who likes to study and alwa
   <img src="https://skillicons.dev/icons?i=github" height="40" alt="github logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" height="40" alt="postman logo
+  <img width="12" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sourcetree/sourcetree-original.svg" height="40" alt="sourcetree logo
   <img width="12" />
 </div>
 <br>
