@@ -4,15 +4,23 @@
 
 ###
 
-# Hi! I'm Keyner Mena <img src="https://raw.githubusercontent.com/nakulbhati/nakulbhati/master/contain/Hi.gif" width="20px">
+# Hi there! I'm Keyner <img src="https://raw.githubusercontent.com/nakulbhati/nakulbhati/master/contain/Hi.gif" width="20px">
 
-Welcome to my GitHub profile! I'm a passionate developer with a love for coding, learning new technologies, and contributing to new projects. Here's a little bit about me:
+I'm a Computer Engineer and Full-Stack Developer from Cartago, Costa Rica, focused on building secure, scalable, and user-centered web applications. I enjoy turning real-world problems into clean and efficient software solutions.
 
-I'm a computer engineering from Cartago, Costa Rica, who likes to study and always learn new skills. I value collaboration and innovation, and I am always looking for ways to improve and learn from others. <br>
+What I’m currently doing
 
-- 🔭 Working on: personal projects.<br>
-- 📚 Currently learning: React <br>
-- ⚡ In my free time: I like to dedicate it to myself.
+- 🔭 Working on personal and professional web projects
+
+- 🌱 Learning React and deepening my full-stack skills
+
+- 🤝 Collaborating in agile environments and real-world applications
+
+A bit more about me
+
+- I enjoy learning new technologies and improving my problem-solving skills
+- I value teamwork, clear communication, and continuous improvement
+- In my free time, I like to disconnect, reflect, and recharge
 
 ## 🛠️ Languages and tools
 
@@ -82,7 +90,7 @@ I'm a computer engineering from Cartago, Costa Rica, who likes to study and alwa
 </div>
 <br>
 
-## 📫 Connect with Me
+## 📫 Let’s connect:
 
 ###
 
